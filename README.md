@@ -4,29 +4,31 @@
 [![Pacte pour un Enseignement d'excellence](https://img.shields.io/badge/Pacte-Excellence-green.svg)](https://www.pactegouvernance.be)
 [![Antigravity Powered](https://img.shields.io/badge/AI-Antigravity%20Agent-purple.svg)](https://github.com/jeromefoguenne-eng/DCO-Agent)
 
-Bienvenue sur le dépôt officiel de l'**Agent DCO FWB**, un assistant IA conçu sur-mesure pour accompagner les **Délégués aux Contrats d'Objectifs (DCO)** de la Fédération Wallonie-Bruxelles dans leurs missions d'analyse, d'évaluation et de co-pilotage des établissements scolaires.
+Bienvenue sur le dépôt officiel de l'**Agent DCO FWB**, un assistant IA conçu sur-mesure pour accompagner les **Délégués aux Contrats d'Objectifs (DCO)** de la Fédération Wallonie-Bruxelles dans leurs missions d'analyse, d'évaluation, de suivi des tâches et de co-pilotage des établissements scolaires.
 
 ---
 
 ## 🎯 Objectifs & Posture de l'Agent DCO
 
-L'Agent DCO agit comme un **co-pilote stratégique, analytique et réflexif**. Il incarne et fait respecter la **Posture professionnelle du DCO** :
+L'Agent DCO agit comme un **co-pilote stratégique, analytique, réflexif et observateur de tâches**. Il incarne et fait respecter la **Posture professionnelle du DCO** :
 - 🎧 **Écoute active & Empathie** : Prise en compte du contexte de l'école (ISE) et de la réalité du terrain.
 - 🤝 **Bienveillance exigeante** : Valorisation des réussites combinée à une rigueur sur l'efficacité des actions.
+- 👁️ **Observation & Suivi d'Avancement (`task-observer`)** : Suivi rigoureux des jalons (Années 1 à 6) et traçabilité neutre des engagements.
 - 💡 **Questionnement réflexif** : Questionner de manière constructive plutôt qu'imposer des solutions.
 - 🔍 **Esprit d'analyse & Esprit critique** : Diagnostic rigoureux fondé sur des données probantes.
 - ⚖️ **Neutralité institutionnelle & Transparence** : Équité absolue, impartialité et règles du jeu claires.
 
 ---
 
-## 🧰 Matrice des 10 Compétences (*Skills*) Intégrées
+## 🧰 Matrice des 11 Compétences (*Skills*) Intégrées
 
-L'agent combine **4 compétences métier FWB** et **6 compétences techniques avancées** :
+L'agent combine **5 compétences métier FWB & Suivi** et **6 compétences techniques avancées** :
 
 ```
 agent-dco-fwb/
 ├── skills/
 │   ├── analyse-plan-pilotage/        # [Métier] Diagnostic, cohérence SMART, 5 axes du Pacte
+│   ├── task-observer/                # [Suivi] Observation des tâches, jalons (Années 1-6) & carnet de bord
 │   ├── redaction-rapports-dco/       # [Métier] Rédaction institutionnelle (lecture, 3 ans, 6 ans)
 │   ├── dialogue-posture-recherche/   # [Métier] Posture DCO, écoute, neutralité & questionnement réflexif
 │   ├── banque-leviers-actions/       # [Métier] Catalogue de leviers & pistes pédagogiques
@@ -49,7 +51,7 @@ L'agent s'appuie sur un dossier `knowledge/` contenant la législation et les gu
 - **`03-indicateurs-et-statistiques/`** : Notice d'interprétation des indicateurs FWB et des indices socio-économiques (ISE N1-N20).
 - **`04-trames-et-grilles-officielles/`** : Modèles réglementaires de rapports de lecture, d'évaluation intermédiaire et finale.
 - **`05-glossaire-institutionnel-fwb.md`** : Définition des termes et sigles FWB (PO, CE, CoPS, AGERS, WBE, EAL, DCO...).
-- **`06-posture-et-deontologie-dco.md`** : Charte de la posture DCO (Écoute, bienveillance, transparence, esprit d'analyse et critique, neutralité).
+- **`06-posture-et-deontologie-dco.md`** : Charte de la posture DCO (Écoute, bienveillance, transparence, esprit d’analyse et critique, neutralité).
 
 ---
 
@@ -62,12 +64,6 @@ L'agent s'appuie sur un dossier `knowledge/` contenant la législation et les gu
    ```
 2. Ouvrir le dossier dans votre environnement de travail Antigravity / Gemini CLI.
 3. L'agent détectera automatiquement le prompt système `AGENT_INSTRUCTIONS.md`, la base de connaissance dans `knowledge/` et l'ensemble des compétences dans `skills/`.
-
-### 2. Exemples de Prompts pour la Formation
-- **Analyse d'un Plan de Pilotage avec Esprit Critique** :
-  > *"Analyse le plan de pilotage ci-joint. Garde un esprit critique sur la faisabilité de l'action 2 et propose un diagnostic neutre basé sur les faits."*
-- **Préparation de réunion avec Questionnement Réflexif** :
-  > *"Je rencontre le Chef d'Établissement. Prépare-moi 7 questions réflexives bienveillantes mais exigeantes pour l'amener à réévaluer ses objectifs d'échec scolaire."*
 
 ---
 
