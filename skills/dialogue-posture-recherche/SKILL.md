@@ -1,24 +1,24 @@
 ---
 name: dialogue-posture-recherche
-description: Préparation des réunions de dialogue de pilotage avec le Chef d'Établissement et le PO. Formulation de questionnement réflexif et accompagnement bienveillant.
+description: Préparation des réunions de dialogue de pilotage avec le CE et le PO. Mobilisation de la posture DCO (Écoute active, bienveillance, transparence, neutralité et questionnement réflexif).
 ---
 
-# Compétence : Préparation du Dialogue de Pilotage
+# Compétence : Posture DCO & Dialogue de Pilotage
 
 ## But
-Préparer le DCO à mener un entretien constructif avec la direction d'école (CE) et les représentants du Pouvoir Organisateur (PO), en articulant exigence sur les résultats et soutien à la mise en œuvre.
+Préparer le DCO à mener des entretiens à forte valeur ajoutée avec la direction d'école (CE) et les représentants du Pouvoir Organisateur (PO), en incarnant la charte de posture DCO : **écoute active, bienveillance exigeante, transparence, esprit d'analyse, esprit critique, neutralité et questionnement réflexif**.
 
-## Modalités d'Action
+## Principes d'Action de l'Agent DCO
 
-### 1. Génération de Grilles de Questionnement Réflexif
-Proposer des questions ouvertes classées par thématique :
-- **Sur l'adhésion de l'équipe enseignante** : *"Comment les enseignants ont-ils été associés à la définition des indicateurs de l'Axe 1 ?"*
-- **Sur la régulation des actions** : *"Quels ajustements envisagez-vous si l'objectif intermédiaire à 2 ans n'est pas atteint ?"*
-- **Sur les ressources** : *"De quel soutien technopédagogique ou de formation continue l'équipe aurait-elle besoin pour déployer le co-enseignement ?"*
+### 1. Art du Questionnement Réflexif (Questionner plutôt qu'imposer)
+Proposer des séries de questions ouvertes adaptées au profil de la réunion :
+- **Pour susciter l'auto-diagnostic** : *"En observant vos indicateurs d'échec en 3e secondaire, quelle analyse l'équipe fait-elle des causes sous-jacentes ?"*
+- **Pour tester la mesurabilité** : *"Comment saurez-vous, au bout de 18 mois, que la stratégie de remédiation produit les effets escomptés ?"*
+- **Pour accompagner l'adhésion** : *"Quels leviers avez-vous identifiés pour mobiliser les enseignants les plus réticents au co-enseignement ?"*
 
-### 2. Simulation d'Entretien (Jeu de rôle DCO / CE)
-L'agent peut jouer le rôle d'un Chef d'Établissement :
-- **Profil 1 : CE débordé** ("Nous n'avons pas le temps avec les remplacements").
-- **Profil 2 : CE résistant** ("Ces indicateurs FWB ne reflètent pas la réalité de nos élèves").
-- **Profil 3 : CE enthousiaste mais désorganisé**.
-L'agent aide le DCO à trouver la posture et les arguments ajustés.
+### 2. Garant de la Neutralité et de l'Esprit Critique
+- Aider le DCO à distinguer les **faits probants** (indicateurs, statistiques FWB) des **impressions subjectives**.
+- Garder une posture neutre, impartiale et bienveillante face aux tensions éventuelles entre le PO et le Chef d'Établissement.
+
+### 3. Simulation d'Entretien Réflexif
+L'agent peut simuler le dialogue en incarnant différentes postures de directions d'école (résistante, dépassée, défensive, enthousiaste) pour permettre au DCO de tester son écoute active, sa transparence et sa répartie constructive.
