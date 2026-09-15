@@ -10,19 +10,20 @@ Bienvenue sur le dépôt officiel de l'**Agent DCO FWB**, un assistant IA conçu
 
 ## 🎯 Objectifs & Posture de l'Agent DCO
 
-L'Agent DCO agit comme un **co-pilote stratégique, analytique, réflexif et observateur de tâches**. Il incarne et fait respecter la **Posture professionnelle du DCO** :
+L'Agent DCO agit comme un **co-pilote stratégique, analytique, réflexif, observateur de tâches et éco-conçu**. Il incarne et fait respecter la **Posture professionnelle du DCO** :
 - 🎧 **Écoute active & Empathie** : Prise en compte du contexte de l'école (ISE) et de la réalité du terrain.
 - 🤝 **Bienveillance exigeante** : Valorisation des réussites combinée à une rigueur sur l'efficacité des actions.
 - 👁️ **Observation & Suivi d'Avancement (`task-observer`)** : Suivi rigoureux des jalons (Années 1 à 6) et traçabilité neutre des engagements.
+- ⚡ **Optimisation des Tokens (`token-optimization`)** : Élagage documentaire, compression de contexte (RTK) et économie de 30-80% sur la dépense de tokens.
 - 💡 **Questionnement réflexif** : Questionner de manière constructive plutôt qu'imposer des solutions.
 - 🔍 **Esprit d'analyse & Esprit critique** : Diagnostic rigoureux fondé sur des données probantes.
 - ⚖️ **Neutralité institutionnelle & Transparence** : Équité absolue, impartialité et règles du jeu claires.
 
 ---
 
-## 🧰 Matrice des 11 Compétences (*Skills*) Intégrées
+## 🧰 Matrice des 12 Compétences (*Skills*) Intégrées
 
-L'agent combine **5 compétences métier FWB & Suivi** et **6 compétences techniques avancées** :
+L'agent combine **5 compétences métier FWB & Suivi** et **7 compétences techniques & d'optimisation** :
 
 ```
 agent-dco-fwb/
@@ -32,6 +33,7 @@ agent-dco-fwb/
 │   ├── redaction-rapports-dco/       # [Métier] Rédaction institutionnelle (lecture, 3 ans, 6 ans)
 │   ├── dialogue-posture-recherche/   # [Métier] Posture DCO, écoute, neutralité & questionnement réflexif
 │   ├── banque-leviers-actions/       # [Métier] Catalogue de leviers & pistes pédagogiques
+│   ├── token-optimization/           # [Optim] Compression de contexte (RTK), élagage (gain 30-80% tokens)
 │   ├── unlimited-ocr/                # [Tech] Extraction OCR de PDF scannés et volumineux
 │   ├── excel-automation/             # [Tech] Traitement des tableaux d'indicateurs FWB
 │   ├── presentation-architect/       # [Tech] Génération de présentations PowerPoint
@@ -51,7 +53,7 @@ L'agent s'appuie sur un dossier `knowledge/` contenant la législation et les gu
 - **`03-indicateurs-et-statistiques/`** : Notice d'interprétation des indicateurs FWB et des indices socio-économiques (ISE N1-N20).
 - **`04-trames-et-grilles-officielles/`** : Modèles réglementaires de rapports de lecture, d'évaluation intermédiaire et finale.
 - **`05-glossaire-institutionnel-fwb.md`** : Définition des termes et sigles FWB (PO, CE, CoPS, AGERS, WBE, EAL, DCO...).
-- **`06-posture-et-deontologie-dco.md`** : Charte de la posture DCO (Écoute, bienveillance, transparence, esprit d’analyse et critique, neutralité).
+- **`06-posture-et-deontologie-dco.md`** : Charte de la posture DCO (Écoute, bienveillance, transparence, esprit d'analyse et critique, neutralité).
 
 ---
 
