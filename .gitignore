@@ -1,0 +1,8 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore local temporary test outputs
+tmp/
+*.tmp
+*.log
